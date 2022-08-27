@@ -19,5 +19,20 @@ of information:
 - Artifacts (output files recorded for late visualization of previous runs)
 Wherever we run our program, the Tracking API by default records the corresponding data into a local directory ./mlruns. The Tracking UI can then be run using the command:
 
-`mlflow ui` 
-pip install mlflow    
+`mlflow ui`    
+
+Example of logging parameters (key-value pairs, each of which must be a string)
+
+`mlflow.log_param("parameter1", 8.26) `
+Example of logging a metric, say accuracy of the model (it is update-able throughout the run)
+
+`mlflow.log_metric("acc", 0.9)`
+Example of logging an artifact i.e. an output file, say abc.txt
+
+mlflow.log_artifact("abc.txt")
+
+Wherever we run our program, the Tracking API by default records the corresponding data into a local directory ./mlruns. The Tracking UI can then be run using the command:
+
+`mlflow ui`
+It can then be viewed at https://localhost:5000 
+
