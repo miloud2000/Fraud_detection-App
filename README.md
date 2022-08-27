@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://cdn.ttgtmedia.com/rms/German/fraud-detection-2-adobe.jpg" width="600px">
+  <img src="https://cdn.ttgtmedia.com/rms/German/fraud-detection-2-adobe.jpg" width="1000px">
   <h1>Fraud Detection App</h1>
 </div>
 
@@ -18,14 +18,14 @@ artificial (AI) has enormous potential for banks, not only in the
 fight to build customer loyalty, but also as a weapon against crime
 financier.
 
-The objective of this internship is to look for where the technologies allowing
+The objective  is to look for where the technologies allowing
 companies to collect increasingly accurate information about desires and
 customer behaviour. Technology will also help banks and
 large companies to establish fraud profiles and track criminals through the
 financial network bias.
 
-# This is a simple fraud detection api that uses machine learning to detect fraud.
-# The model is trained on a dataset of transactions and then used to predict whether a transaction is fraudulent or not.
+This is a simple fraud detection api that uses machine learning to detect fraud.
+The model is trained on a dataset of transactions and then used to predict whether a transaction is fraudulent or not.
 
 
 
