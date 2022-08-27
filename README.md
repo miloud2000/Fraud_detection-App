@@ -3,7 +3,7 @@
   <h1>Fraud Detection App</h1>
 </div>
 
-### Introduction
+### 1.Introduction
 
 Open banking, crypto-currencies, artificial intelligence... all these technologies
 change the way people do their banking. But these
