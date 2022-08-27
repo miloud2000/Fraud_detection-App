@@ -2,5 +2,5 @@
 title "Staging"
 git add . 
 git commit -m "Night time staging"
-git push origin master
+git push -f origin  master
 @echo off
