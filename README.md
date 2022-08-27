@@ -1,5 +1,5 @@
 <div align="center">
-  <img src="https://cdn.ttgtmedia.com/rms/German/fraud-detection-2-adobe.jpg" width="200px">
+  <img src="https://cdn.ttgtmedia.com/rms/German/fraud-detection-2-adobe.jpg" width="600px">
   <h1>Fraud Detection App</h1>
 </div>
 
