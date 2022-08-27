@@ -1,5 +1,4 @@
-## kubeflow
-### 2. Install Kubeflow   
+ 
 ## MLflow 
 MLflow is an open-source platform that enables smooth organization of a machine learning project. It handles the machine learning lifecycle such that if we use MLflow for deploying an ML project built on an unsupported framework, it provides an open interface to integrate that framework with the existing system easily. 
 MLflow is said to be ‘library-agnostic’ which means, as all the functionalities of MLflow can be accessed using REST API and CLI, any ML library and any programming language can be used while handling a project using MLflow.
