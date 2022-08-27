@@ -1,3 +1,7 @@
+ <div align="center">
+  <img src="https://360digit.b-cdn.net/assets/admin/ckfinder/userfiles/files/tableau-img/Mlops%202.jpeg" width="1000px">
+  <h1>MLops</h1>
+</div>
  
 ## MLflow 
 MLflow is an open-source platform that enables smooth organization of a machine learning project. It handles the machine learning lifecycle such that if we use MLflow for deploying an ML project built on an unsupported framework, it provides an open interface to integrate that framework with the existing system easily. 
