@@ -8,7 +8,9 @@ Installation of MLflow is very simple.
  `pip install mlflow`
  ## Major components of MLflow
     ### 1. MLflow Tracking
-    It allows an ML practitioner to capture the metadata required for the ML project regardless of the working environment in which the project is being trained and deployed. It is based on a concept called ‘runs’ where each run has the following parts of information:
+    It allows an ML practitioner to capture the metadata required for the ML project regardless of the working environment in which the
+     project is being trained and deployed. It is based on a concept called
+      ‘runs’ where each run has the following parts of information:
 - Code version
 - Start and end time of that run
 - Source that marks the starting point of the run

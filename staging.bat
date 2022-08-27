@@ -1,6 +1,6 @@
 @echo off 
 title "Staging"
 git add . 
-git commit -m "first time staging"
+git commit -m "second time staging"
 git push origin master
 @echo off
