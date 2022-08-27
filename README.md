@@ -1,4 +1,33 @@
-# Fraud Detection Api
+<div align="center">
+  <img src="https://cdn.ttgtmedia.com/rms/German/fraud-detection-2-adobe.jpg" width="200px">
+  <h1>Fraud Detection App</h1>
+</div>
+
+# Fraud Detection App
+### Introduction
+
+Open banking, crypto-currencies, artificial intelligence... all these technologies
+change the way people do their banking. But these
+Progress also offers opportunities for criminals. Banks and large ones
+the most successful and profitable companies of tomorrow will be those that
+make the most efforts in financial crime prevention and defence today.
+
+The magnitude of the challenge may not be well known, but the fact that it
+is a major expense for banks is a no-brainer. Intelligence
+artificial (AI) has enormous potential for banks, not only in the
+fight to build customer loyalty, but also as a weapon against crime
+financier.
+
+The objective of this internship is to look for where the technologies allowing
+companies to collect increasingly accurate information about desires and
+customer behaviour. Technology will also help banks and
+large companies to establish fraud profiles and track criminals through the
+financial network bias.
+
+# This is a simple fraud detection api that uses machine learning to detect fraud.
+# The model is trained on a dataset of transactions and then used to predict whether a transaction is fraudulent or not.
+
+
 
 
 
