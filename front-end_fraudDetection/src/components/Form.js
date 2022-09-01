@@ -1,42 +1,46 @@
-import React from "react";
-import axios from "axios";
 
- function FileUpload() {
-  const [uploadFile, setUploadFile] = React.useState();
+import React, {useState} from 'react';
+import axios from 'axios';
+
+function FileUpload() {
+
+  const [file, setFile] = useState()
+
+  function handleChange(event) {
+    setFile(event.target.files[0])
+  }
   
-  
-  const submitForm = (event) => {
-    event.preventDefault();
+  function handleSubmit(event) {
+    event.preventDefault()
+    const url = 'http://localhost:8000/predict?proba_threshold=0.5&return_proba=true';
+    const formData = new FormData();
+    formData.append('file', file);
+    formData.append('fileName', file.name);
+    const config = {
+      headers: {
+        'content-type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Methods': 'GET,PUT,POST,DELETE,PATCH,OPTIONS',
+        'accept': 'application/json',
+        'Access-Control-Allow-Headers': 'Origin, X-Requested-With, Content-Type, Accept',
 
-    const dataArray = new FormData();
-    dataArray.append("uploadFile", uploadFile);
+      },
+    };
+    axios.post(url, formData, config).then((response) => {
+      console.log(response.data);
+    });
 
-    axios.post("http://localhost:8000/predict", dataArray, {
-        headers: {
-			'Content-Type': 'application/json',
-			'Accept': 'application/json',
-			'Postman-Token': '068642bf-b1a5-4be1-a054-d67ef699478b'
-			
-
-        }
-      })
-      .then((response) => {
-        // successfully uploaded response
-      })
-      .catch((error) => {
-        // error response
-      });
-  };
+  }
 
   return (
-    <div>
-      <form onSubmit={submitForm}>
-        <br />
-        <input type="file" onChange={(e) => setUploadFile(e.target.files)} />
-        <br />
-        <input type="submit" />
-      </form>
+    <div className="App">
+        <form onSubmit={handleSubmit}>
+          <h1>React File Upload</h1>
+          <input type="file" onChange={handleChange}/>
+          <button type="submit">Upload</button>
+        </form>
     </div>
   );
 }
+
 export default FileUpload;

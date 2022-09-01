@@ -12,6 +12,7 @@ export default function Products() {
    <div  > 
     <p className='products'>Predection</p>
   <FileUpload/>
+  <p>upload file </p>
    </div>
   
   );
