@@ -10,7 +10,7 @@ input[type=text], select {
   }
   
   input[type=submit] {
-    width: 100%;
+    width: 18%;
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
@@ -19,12 +19,65 @@ input[type=text], select {
     border-radius: 4px;
     cursor: pointer;
   }
+  .div2 {   
+   
+    display: flex;
+    justify-content: center;
+  }
+  .div3 {   
+    display: block;
+    display: flex;
+    justify-content: center;
+  }
+ .div4
+  {
+     text-align: center;
+     font-size: xx-large;  
+    }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 40%;
+    
+  }
+  .logo{
+    width:70px;
+    height:70px;
+    text-align:left;
+  }
+  .photo2 {
+    height: 60px;
+    width: 40px; 
+    text-align: left;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+  .photo {
+    height: 200px;
+    width: 120px; 
+    text-align: center;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #eb1316;
   }
   
   .div1 {
     border-radius: 5px;
     padding: 20px;
   }
+ 

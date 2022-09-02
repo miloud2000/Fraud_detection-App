@@ -25,14 +25,10 @@
 }
 
 .products {
-  background-image:url("./images/img-4.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -ms-background-size: cover;
-  -o-background-size: cover;
+  background-image:url("./images/aki.jpg");
    background-size: cover;
    color:#fff;
-   font-size: 100px;
+   
 }
 
 .sign-up {

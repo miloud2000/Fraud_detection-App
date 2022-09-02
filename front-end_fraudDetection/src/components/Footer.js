@@ -2,17 +2,24 @@ import React from 'react';
 import './Footer.css';
 import { Button } from './Button';
 import { Link } from 'react-router-dom';
+import ride from '../images/ride2.png';
+import "../App.css"
+import "./Form.css"
 
 function Footer() {
   return (
+
     <div className='footer-container'>
+       
       <section className='footer-subscription'>
+       
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best Advice 
+        join the Adventure to receive our best Advice 
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
         </p>
+        
         <div className='input-areas'>
           <form>
             <input
@@ -39,7 +46,6 @@ function Footer() {
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
@@ -47,9 +53,7 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
-            <Link to='/'>Influencer</Link>
+           
           </div>
           <div class='footer-link-items'>
             <h2>Social Media</h2>
@@ -67,6 +71,7 @@ function Footer() {
               Imagine © 2022
               <i class='fab fa-typo' />
             </Link>
+            
           </div>
           <small class='website-rights'>Imagine © 2022</small>
           <div class='social-icons'>

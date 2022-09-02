@@ -12,10 +12,7 @@ function Home() {
   return (
 
     <>
-      <HeroSection />
-      <Cards />
-      <Csvimport/>
-      <Services />
+      <HeroSection />     
       <Footer />
       
     </>
